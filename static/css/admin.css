@@ -1,0 +1,140 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.admin-container {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.admin-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+
+.sidebar {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+}
+
+.sidebar-heading {
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.sidebar-link {
+    color: #adb5bd;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.sidebar-link i {
+    margin-right: 10px;
+}
+
+.sidebar-link:hover {
+    color: #fff;
+    background-color: #17a2b8; /* Teal blue for hover */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 30px;
+}
+
+.nav-item.active .sidebar-link {
+    color: #fff;
+    background-color: #17a2b8; /* Teal blue for active link */
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+.action-buttons .btn {
+    margin-right: 10px;
+}
+
+.bg-dark {
+    background-color: #000;
+}
+
+.bg-dark {
+    background-color: #000 !important; /* Add !important to override Bootstrap's default */
+}
+
+.form-container {
+    display: none;
+}
+
+.btn-teal {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.btn-teal:hover {
+    background-color: #138496;
+    color: #fff;
+}
+
+.search-bar {
+    border-radius: 20px;
+    margin-right: 10px;
+    border: 2px solid #17a2b8; /* Teal blue border */
+}
+
+.search-bar:focus {
+    box-shadow: 0 0 5px rgba(23, 162, 184, 0.5); /* Teal blue shadow on focus */
+}
+
+.btn-outline-light {
+    border-color: #17a2b8;
+    color: #17a2b8;
+}
+
+.btn-outline-light:hover {
+    background-color: transparent;
+    border-color: #138496;
+    color: #138496;
+}
+
+.btn-outline-light:focus {
+    box-shadow: none;
+}
+
+.teal-border {
+    border: 2.5px solid #17a2b8; /* Teal blue border */
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,73 @@
+body {
+    background-image: url("{% static 'images/pic1.webp' %}");
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: -35px;
+    overflow: hidden;
+}
+.signin-container {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(15px);
+    color: #fff;
+    padding: 38px;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increased shadow depth for more glossiness */
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 29em;
+}
+.signin-container:hover {
+    transform: translateY(-4px); /* Lift the container slightly on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6); /* Further increase shadow depth on hover */
+}
+
+.form-group label {
+    color: #fff;
+}
+
+.btn-teal {
+    background-color: #17a2b8; /* Teal blue color */
+    color: #fff;
+}
+
+.btn-teal:hover {
+    background-color: #17a2b8; /* Darker teal blue on hover */
+    color: #fff;
+}
+.text-center{
+    color:#fff;
+}
+
+.text-center a {
+    color: #17a2b8; /* Teal blue color for links */
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    color: #138496; /* Darker teal blue on hover */
+    text-decoration: underline;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background: transparent;
+    background-clip: padding-box;
+    border: 1px solid #17a2b8;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.form-control::placeholder {
+    color: #aaa; 
+}

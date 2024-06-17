@@ -1,0 +1,49 @@
+body {
+    
+    background-color: #000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.landing-container {
+    background: rgba(173, 216, 230, 0.15); /* Light blue color with transparency */
+    backdrop-filter: blur(15px);
+    color: #fff;
+    padding: 38px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 29em;
+}
+
+.landing-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.btn-teal {
+    background-color: #17a2b8; /* Teal blue color */
+    color: #fff;
+}
+
+.btn-teal:hover {
+    background-color: #138496; /* Darker teal blue on hover */
+    color: #fff;
+}
+
+.text-center a {
+    color: #17a2b8; /* Teal blue color for links */
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    color: #138496; /* Darker teal blue on hover */
+    text-decoration: underline;
+}
