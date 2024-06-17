@@ -1,0 +1,1 @@
+*.pyc\n__pycache__/\n*.sqlite3\n/media/\n/staticfiles/\n/env/\n.env\n.DS_Store
